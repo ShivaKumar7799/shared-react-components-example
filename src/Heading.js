@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Heading() {
+function Heading({text}) {
   return (
     <div>
       <h1>{text} Heading Component </h1>
