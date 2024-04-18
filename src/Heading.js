@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Heading() {
+function Heading({text}) {
   return (
     <div>
-      <h1> Heading Component </h1>
+      <h1> {text} </h1>
     </div>
   )
 }
