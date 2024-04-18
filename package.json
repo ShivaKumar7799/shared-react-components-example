@@ -1,6 +1,6 @@
 {
   "name": "shared-react-component-example",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description":
     "An example module demonstrating how to share react components",
   "main": "build/index.js",
