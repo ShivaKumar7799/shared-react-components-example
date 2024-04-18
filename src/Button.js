@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Button({title, onClickHandler}) {
+function Button({title, onClickHandler, customStyles}) {
   return (
-    <button onClick={onClickHandler} >{title}</button>
+    <button style={customStyles} onClick={onClickHandler} >{title}</button>
   )
 }
 
